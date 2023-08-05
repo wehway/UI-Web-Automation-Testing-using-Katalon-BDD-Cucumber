@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Register ERROR duplicate key value viol_a3ca4d</name>
+   <tag></tag>
+   <elementGuidId>83356275-14cc-46d3-bc6a-77c879683bcc</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.v-main__wrap</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='app']/div/main/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>be59686c-e574-4cf0-b270-82e7a3759ea3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>v-main__wrap</value>
+      <webElementGuid>4817b2ca-ff87-4193-ba13-5d92d0e804b4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Register ERROR: duplicate key value violates unique constraint &quot;users_email_key&quot; (SQLSTATE 23505) Nama LengkapEmailPasswordRegister Sudah memiliki akun? Login</value>
+      <webElementGuid>fffc56a2-ce10-463f-9f80-4705cbbb6de0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;app&quot;)/div[@class=&quot;v-application--wrap&quot;]/main[@class=&quot;v-main&quot;]/div[@class=&quot;v-main__wrap&quot;]</value>
+      <webElementGuid>25e9a3a2-6433-4169-80b2-fea1b89fa8ae</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='app']/div/main/div</value>
+      <webElementGuid>8536313f-cc51-4a3a-84a3-5769f4be0e65</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='AltaShop'])[1]/following::div[2]</value>
+      <webElementGuid>206eb352-f826-489b-b9ee-651404f1f3ca</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//main/div</value>
+      <webElementGuid>22b31e69-f7a1-410c-a92c-771be657811c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Register ERROR: duplicate key value violates unique constraint &quot;users_email_key&quot; (SQLSTATE 23505) Nama LengkapEmailPasswordRegister Sudah memiliki akun? Login' or . = 'Register ERROR: duplicate key value violates unique constraint &quot;users_email_key&quot; (SQLSTATE 23505) Nama LengkapEmailPasswordRegister Sudah memiliki akun? Login')]</value>
+      <webElementGuid>86fec481-fab5-49ee-a918-5957746cbc47</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

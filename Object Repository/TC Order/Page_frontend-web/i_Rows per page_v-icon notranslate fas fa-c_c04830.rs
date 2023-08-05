@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_Rows per page_v-icon notranslate fas fa-c_c04830</name>
+   <tag></tag>
+   <elementGuidId>8bab9032-eabd-4224-be0c-c94ce516f732</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>i.v-icon.notranslate.fas.fa-caret-down.theme--light.primary--text</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='app']/div/main/div/div/div/div/div[2]/div/div/div/div/div/div[2]/div/i</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>ac69b5ca-e53d-4e9e-8075-b59a1ea9bff0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-hidden</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>d97cee9a-37dd-4257-8703-9f7873069fc5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>v-icon notranslate fas fa-caret-down theme--light primary--text</value>
+      <webElementGuid>e3d64270-6b73-4aa5-b06f-484262be47db</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;app&quot;)/div[@class=&quot;v-application--wrap&quot;]/main[@class=&quot;v-main&quot;]/div[@class=&quot;v-main__wrap&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;v-card v-sheet theme--light&quot;]/div[@class=&quot;v-data-table v-data-table--has-bottom theme--light&quot;]/div[@class=&quot;v-data-footer&quot;]/div[@class=&quot;v-data-footer__select&quot;]/div[@class=&quot;v-input v-input--hide-details v-input--is-label-active v-input--is-dirty v-input--is-focused theme--light v-text-field v-text-field--is-booted v-select v-select--is-menu-active primary--text&quot;]/div[@class=&quot;v-input__control&quot;]/div[@class=&quot;v-input__slot&quot;]/div[@class=&quot;v-select__slot&quot;]/div[@class=&quot;v-input__append-inner&quot;]/div[@class=&quot;v-input__icon v-input__icon--append&quot;]/i[@class=&quot;v-icon notranslate fas fa-caret-down theme--light primary--text&quot;]</value>
+      <webElementGuid>99520ca6-8e92-4752-acad-1f6f0c87f65a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='app']/div/main/div/div/div/div/div[2]/div/div/div/div/div/div[2]/div/i</value>
+      <webElementGuid>e9532542-a4e2-4cba-a889-33551ae6a16e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/i</value>
+      <webElementGuid>73ccfe53-c041-4ce8-b137-d05a1e95255a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

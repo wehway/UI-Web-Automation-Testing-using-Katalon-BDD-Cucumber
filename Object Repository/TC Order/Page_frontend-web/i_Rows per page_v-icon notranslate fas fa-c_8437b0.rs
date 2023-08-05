@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_Rows per page_v-icon notranslate fas fa-c_8437b0</name>
+   <tag></tag>
+   <elementGuidId>0c72a89b-5b2b-47a0-b3a1-bdbd9910d5b3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>i.v-icon.notranslate.fas.fa-chevron-right.theme--light</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='app']/div/main/div/div/div/div/div[2]/div[4]/button/span/i</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>d1d83885-ff02-4e3b-8259-a91f931c6aaf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-hidden</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>b773a81f-4f6a-476d-82e4-cd792d44dadf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>v-icon notranslate fas fa-chevron-right theme--light</value>
+      <webElementGuid>4f1e80e5-6f5d-46d8-944b-dd0bca011c8f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;app&quot;)/div[@class=&quot;v-application--wrap&quot;]/main[@class=&quot;v-main&quot;]/div[@class=&quot;v-main__wrap&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;v-card v-sheet theme--light&quot;]/div[@class=&quot;v-data-table v-data-table--has-bottom theme--light&quot;]/div[@class=&quot;v-data-footer&quot;]/div[@class=&quot;v-data-footer__icons-after&quot;]/button[@class=&quot;v-btn v-btn--icon v-btn--round v-btn--text theme--light v-size--default&quot;]/span[@class=&quot;v-btn__content&quot;]/i[@class=&quot;v-icon notranslate fas fa-chevron-right theme--light&quot;]</value>
+      <webElementGuid>1bdbc523-3c4d-4185-a572-f754744bf380</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='app']/div/main/div/div/div/div/div[2]/div[4]/button/span/i</value>
+      <webElementGuid>ee01a8f8-3574-452f-addf-66eda539e88c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/button/span/i</value>
+      <webElementGuid>c041dbc7-bf46-461f-9bfa-b3327ecb4a2a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
