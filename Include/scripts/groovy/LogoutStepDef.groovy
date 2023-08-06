@@ -43,42 +43,35 @@ import cucumber.api.java.en.When
 
 
 
-class OrderStepDef {
+class LogoutStepDef {
 
-	@Given("I want order something product")
-	def I_want_order_something_product() {
+	@Given("I enter the link https://alta-shop.vercel.app/")
+	def I_enter_the_link() {
 		WebUI.openBrowser('')
-	}
-
-	@And("I go to the link https://alta-shop.vercel.app/")
-	def I_go_to_the_link() {
 		WebUI.navigateToUrl('https://alta-shop.vercel.app/')
-		WebUI.click(findTestObject('Object Repository/Order/Page_frontend-web/button_AltaShop_v-btn v-btn--icon v-btn--ro_febe25'))
+		WebUI.click(findTestObject('Object Repository/Logout/Page_frontend-web/button_AltaShop_v-btn v-btn--icon v-btn--ro_febe25'))
 	}
 
-	@And("I enter my (.*) and (.*)")
-	def I_enter_my_email_password(String email, String password) {
-		WebUI.setText(findTestObject('Object Repository/Order/Page_frontend-web/input_Email_input-102'), email)
-		WebUI.setText(findTestObject('Object Repository/Order/Page_frontend-web/input_Password_input-105'), password)
-		WebUI.click(findTestObject('Object Repository/Order/Page_frontend-web/button_Login'))
+	@When("I input my (.*) and my (.*)")
+	def I_input_my_email_and_my_password(String email, String password) {
+		WebUI.setText(findTestObject('Object Repository/Logout/Page_frontend-web/input_Email_input-102'), 'wahyu@gmail.com')
+		WebUI.setText(findTestObject('Object Repository/Logout/Page_frontend-web/input_Password_input-105'), 'Password123')
 	}
 	
-	@When("I click beli button a product")
-	def I_click_beli_button_a_product() {
-		WebUI.click(findTestObject('Object Repository/Order/Page_frontend-web/button_Beli'))
-		WebUI.click(findTestObject('Object Repository/Order/Page_frontend-web/button_1'))
+	@And("I tap the login button")
+	def I_tap_the_login_button() {
+		WebUI.click(findTestObject('Object Repository/Logout/Page_frontend-web/button_Login'))
+	}
+	
+	@And("I want to change account")
+	def I_want_to_change_account() {
+		WebUI.click(findTestObject('Object Repository/Logout/Page_frontend-web/button_AltaShop_v-btn v-btn--icon v-btn--ro_febe25'))
+		WebUI.click(findTestObject('Object Repository/Logout/Page_frontend-web/div_Logout'))
 	}
 
-	@And("I want to set the amount that I will buy")
-	def I_want_to_set_the_amount_that_I_will_buy() {
-		WebUI.click(findTestObject('Object Repository/Order/Page_frontend-web/button_'))
-		WebUI.click(findTestObject('Object Repository/Order/Page_frontend-web/button_'))
-		WebUI.click(findTestObject('Object Repository/Order/Page_frontend-web/button_-'))
-	}
-
-	@Then("I click bayar button")
-	def I_click_bayar_button() {
-		WebUI.click(findTestObject('Object Repository/Order/Page_frontend-web/button_Bayar'))
+	@Then("I success logout")
+	def I_success_logout() {
+		WebUI.click(findTestObject('Object Repository/Logout/Page_frontend-web/input_Email_input-275'))
 		WebUI.closeBrowser()
 	}
 }

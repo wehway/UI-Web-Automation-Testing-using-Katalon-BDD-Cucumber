@@ -21,19 +21,25 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://alta-shop.vercel.app/')
 
-WebUI.click(findTestObject('Object Repository/TC Order/Page_frontend-web/button_AltaShop_v-btn v-btn--icon v-btn--ro_febe25'))
+WebUI.click(findTestObject('Object Repository/Order/Page_frontend-web/button_AltaShop_v-btn v-btn--icon v-btn--ro_febe25'))
 
-WebUI.setText(findTestObject('Object Repository/TC Order/Page_frontend-web/input_Email_input-102'), 'wahyu@gmail.com')
+WebUI.setText(findTestObject('Object Repository/Order/Page_frontend-web/input_Email_input-102'), 'wahyu@gmail.com')
 
-WebUI.setText(findTestObject('Object Repository/TC Order/Page_frontend-web/input_Password_input-105'), 'Password123')
+WebUI.setText(findTestObject('Object Repository/Order/Page_frontend-web/input_Password_input-105'), 'Password123')
 
-WebUI.click(findTestObject('Object Repository/TC Order/Page_frontend-web/button_Login'))
+WebUI.click(findTestObject('Object Repository/Order/Page_frontend-web/button_Login'))
 
-WebUI.click(findTestObject('Object Repository/TC Order/Page_frontend-web/button_Beli'))
+WebUI.click(findTestObject('Object Repository/Order/Page_frontend-web/button_Beli'))
 
-WebUI.click(findTestObject('Object Repository/TC Order/Page_frontend-web/button_1'))
+WebUI.click(findTestObject('Object Repository/Order/Page_frontend-web/button_1'))
 
-WebUI.click(findTestObject('Object Repository/TC Order/Page_frontend-web/button_AltaShop_v-btn v-btn--icon v-btn--ro_febe25'))
+WebUI.click(findTestObject('Object Repository/Order/Page_frontend-web/button_'))
+
+WebUI.click(findTestObject('Object Repository/Order/Page_frontend-web/button_'))
+
+WebUI.click(findTestObject('Object Repository/Order/Page_frontend-web/button_-'))
+
+WebUI.click(findTestObject('Object Repository/Order/Page_frontend-web/button_Bayar'))
 
 WebUI.closeBrowser()
 
